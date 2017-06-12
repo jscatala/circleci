@@ -12,4 +12,7 @@ machine:
 dependencies:
     pre:
         - sudo apt-get update 
-        - sudo apt-get upgrade
+        - sudo apt-get upgrade -y 
+        - sudo apt-get install -y python-pip3
+        - sudo pip3 install --upgrade pip
+        - sudo pip3 install virtualenv 
